@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-13T14:15:41 NZDT" name="SNSSmokeTestsSuite SNS Ownership Transfer" finished-at="2023-03-13T14:16:41 NZDT" duration-ms="59665">
+    <groups>
+    </groups>
+    <test started-at="2023-03-13T14:15:41 NZDT" name="OwnershipTransferSNS" finished-at="2023-03-13T14:16:41 NZDT" duration-ms="59665">
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest">
+        <test-method is-config="true" signature="loginSNS()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:15:41 NZDT" name="loginSNS" finished-at="2023-03-13T14:15:59 NZDT" duration-ms="17190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSNS -->
+        <test-method signature="SearchingandTransferringHorse()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:15:59 NZDT" name="SearchingandTransferringHorse" finished-at="2023-03-13T14:16:07 NZDT" duration-ms="8256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchingandTransferringHorse -->
+        <test-method signature="TransferApplicationDetailsandAddressvalidation()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:16:07 NZDT" name="TransferApplicationDetailsandAddressvalidation" finished-at="2023-03-13T14:16:11 NZDT" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransferApplicationDetailsandAddressvalidation -->
+        <test-method signature="AddingRacingManagersandOwners()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:16:11 NZDT" name="AddingRacingManagersandOwners" finished-at="2023-03-13T14:16:16 NZDT" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingRacingManagersandOwners -->
+        <test-method signature="AddingandAcceptingPayment()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:16:16 NZDT" name="AddingandAcceptingPayment" finished-at="2023-03-13T14:16:40 NZDT" duration-ms="24470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingandAcceptingPayment -->
+        <test-method signature="BankAccountApproval()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:16:40 NZDT" name="BankAccountApproval" finished-at="2023-03-13T14:16:40 NZDT" duration-ms="48" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id menu
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id menu
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1015)
+at SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest.BankAccountApproval(OwnershipTransferSNSTest.java:274)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankAccountApproval -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest@12359a82]" started-at="2023-03-13T14:16:40 NZDT" name="tearDown" finished-at="2023-03-13T14:16:41 NZDT" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest -->
+    </test> <!-- OwnershipTransferSNS -->
+  </suite> <!-- SNSSmokeTestsSuite SNS Ownership Transfer -->
+</testng-results>

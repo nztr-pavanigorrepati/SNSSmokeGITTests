@@ -1,0 +1,1 @@
+{"uuid":"09d570a7-af52-4515-8255-35ca869b6406","name":"OwnershipTransferSNSTest","children":[],"befores":[{"name":"loginSNS","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1678667869988,"stop":1678667882868}],"afters":[],"start":1678667869987,"stop":1678667882885}

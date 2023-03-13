@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SNSSmokeTestsSuite Create a race from start to end">
+  <test name="CreateRaceMeeting">
+    <classes>
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.CreateRaceMeetingTest">
+      <methods>
+		  <include name="navigatingToCreatMeetingPage"></include>
+		  <include name="createMeetingsPage"></include>
+		  <include name="saveMeetingPage"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="FindMeeting">
+    <classes>
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.FindMeetingTest">
+      <methods>
+		  <include name="navigatingToFindMeetingPage"></include>
+		  <include name="searchFindMeeting"></include>
+		  <include name="selcetMeeting"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TrainerIdentification">
+    <classes>
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.TrainerIdentificationTest">
+      <methods>
+		  <include name="AddingTrainersandMutlipleHorses"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Nominations">
+    <classes>
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.NominationsTest">
+      <methods>
+		  <include name="RaceMeetingNominations"></include>
+		  <include name="ValidatingHorseslist"></include>
+		  <include name="EditMeetingDetailsPage"></include>
+		  <include name="CloseRace"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Handicapping">
+    <classes>
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.HandicappingTest">
+      <methods>
+		  <include name="Assignhandicapping"></include>
+		  <include name="HandicapRace"></include>
+		  <include name="ConfirmWeights"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Acceptances">
+    <classes>
+      <class name="SNSSmokeGIT.SNSSmokeGITTests.AcceptancesTest">
+      <methods>
+		  <include name="AcceptanceCloseRace"></include>
+		  <include name="AcceptanceProcessing"></include>
+		  <include name="AcceptanceFinalField"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"></listener>
+</listeners>
+</suite> <!-- Suite -->

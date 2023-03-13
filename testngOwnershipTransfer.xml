@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SNSSmokeTestsSuite SNS Ownership Transfer">
+	<test name="OwnershipTransferSNS">
+		<classes>
+			<class name="SNSSmokeGIT.SNSSmokeGITTests.OwnershipTransferSNSTest">
+				<methods>
+					<include name="SearchingandTransferringHorse"></include>
+					<include name="TransferApplicationDetailsandAddressvalidation"></include>
+					<include name="AddingRacingManagersandOwners"></include>
+					<include name="AddingandAcceptingPayment"></include>
+					<include name="BankAccountApproval"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<listeners>
+		<listener class-name="org.testng.reporters.EmailableReporter"></listener>
+	</listeners>
+</suite> <!-- Suite -->
